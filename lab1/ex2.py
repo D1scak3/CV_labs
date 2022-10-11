@@ -54,21 +54,15 @@ class VCHelper:
 
     def init_vertex_buffers(self):
         """Define the geometry and copy it to a vertex buffer object"""
-        # create array to save triangles vertexes
         self.triangle_vertices = array([
-            [-0.5, 1, 0],
-            [-1, -1, 0],
-            [0, -1, 0]
-        ], "f")
+                [-0.5, 1, 0],
+                [-1, -1, 0],
+                [0, -1, 0]
+            ], 'f')
 
-        # bind array to buffer
         self.vbo_triangle = glGenBuffers(1)
-
-        # pass triangle to buffer
         glBindBuffer(GL_ARRAY_BUFFER, self.vbo_triangle)
-        
-        # create triangle
-        glBufferData(GL_ARRAY_BUFFER, 4 * self.vbo_triangle.size, self.triangle_vertices, GL_STATIC_DRAW)
+        glBufferData(GL_ARRAY_BUFFER, 4 * self.triangle_vertices.size, self.triangle_vertices, GL_STATIC_DRAW)
 
     #########################
     def init_window(self, w, h):
@@ -86,20 +80,20 @@ class VCHelper:
     def render(self):
         """This function will deal with rendering objects to the scene"""
 
-        
-
         # clear the buffer
         glClear(GL_COLOR_BUFFER_BIT)
 
         # Some code will be added here...
+
         glBindBuffer(GL_ARRAY_BUFFER, self.vbo_triangle)
+        # Some code will be added here...
         glVertexAttribPointer(0, 3, GL_FLOAT, GL_FALSE, 3 * 4, None)
         glEnableVertexAttribArray(0)
+
         glDrawArrays(GL_TRIANGLES, 0, 3)
 
         # flip the buffer and show what I just composed
         pg.display.flip()
-
 
 # create an object of type CVHelper, the Visual Computing helper class
 cv = VCHelper()
@@ -114,7 +108,7 @@ cv.init_vertex_buffers()
 cv.init_shaders()
 
 # define shader program
-glUseProgram(cv.shader)
+# glUseProgram(cv.shader)
 
 # enter the loop for rendering and processing events
 while True:
