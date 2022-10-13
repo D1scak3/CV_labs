@@ -1,0 +1,24 @@
+Ray Tracing
+	introduction
+		criação de cenas
+			caraterização
+			reflexao de phong (vários tipos de ambientes)
+		graphic pipeline
+		enquadramento do ray tracing
+			face o contextoa atual
+		overview geral do ray tracing
+	
+	what is
+		onde se encontra
+		razão da utilização
+		utilização atual
+	
+	how it is made (core concepts)
+	
+	why and use cases (comparision with other methods)
+		use case 1
+		use case 2
+		use case 3
+	
+	further beyond
+		aplicações do ray tracing (ReSTIR, DLSS 3, etc)
