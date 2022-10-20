@@ -1,14 +1,16 @@
 Ray Tracing
 	introduction
-		criação de cenas
-			caraterização
-			reflexao de phong (vários tipos de ambientes)
-		graphic pipeline
-		enquadramento do ray tracing
-			face o contextoa atual
-		overview geral do ray tracing
+		small intro to ray tracing
+
+		mention graphic pipeline
+		identify where the ray tracing inserts itself
+
+		mention scene creation
+		mention several illumination techniques present in scene creation (caracterização/iluminação de phong)
+
+		rundown do capítulo atual e breve menção do próximo
 	
-	what is
+	Ray Tracing
 		onde se encontra
 		razão da utilização
 		utilização atual
