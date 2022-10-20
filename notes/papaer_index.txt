@@ -1,26 +1,25 @@
 Ray Tracing
 	introduction
-		small intro to ray tracing
-
-		mention graphic pipeline
-		identify where the ray tracing inserts itself
+		small intro to ray tracing 
 
 		mention scene creation
 		mention several illumination techniques present in scene creation (caracterização/iluminação de phong)
 
-		rundown do capítulo atual e breve menção do próximo
+		mention graphic pipeline
+		identify where the ray tracing inserts itself
+
+		rundown of chapter and introduce next chapter (maybe???)
 	
 	Ray Tracing
-		onde se encontra
-		razão da utilização
-		utilização atual
+		what
+		how
+		why
+		core concepts
+		comparison to other randerization algorithms
 	
-	how it is made (core concepts)
+	Today usage & applications
+		hardware
+		software applications (ReSTIR, DLSS 3, etc)
 	
-	why and use cases (comparision with other methods)
-		use case 1
-		use case 2
-		use case 3
-	
-	further beyond
-		aplicações do ray tracing (ReSTIR, DLSS 3, etc)
+	Further beyond
+		future work?
