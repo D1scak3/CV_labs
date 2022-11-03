@@ -1,0 +1,42 @@
+Ray Tracing
+	introduction
+		small intro to ray tracing 
+
+		mention scene creation
+		mention several illumination techniques present in scene creation (caracterização/iluminação de phong)
+
+		mention graphic pipeline
+		identify where the ray tracing inserts itself
+
+		rundown of chapter and introduce next chapter (maybe???)
+	
+	Ray Tracing
+		what
+		how
+		why
+		core concepts
+		comparison to other randerization algorithms
+	
+	Today usage & applications
+		hardware
+		software applications (ReSTIR, DLSS 3, etc)
+	
+	Further beyond
+		future work?
+
+
+cada pixel do ecrã lança um raio (ray casting)
+cada raio faz reflexões onde embate, e continuam a embater até encontrarem uma fonte de luz
+depois são executados os cálculos por ordem oposta (da luz para a câmara), calculando as propriedades do raio de luz
+o resultado final é o que é "visto" pela câmara
+
+
+
+
+impotancia da iluminação
+		diferentes abordasgens
+
+		breve resanha do pipeline gráfico
+		iluminação global
+		sombreamento 
+		várias abordagens
